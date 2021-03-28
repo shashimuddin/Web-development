@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+} 
+
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;                    /*sets the direction of flex */
+    justify-content: center;               /*positioning of content and spacing*/
+    /*flex-wrap: wrap;*/                        /*wraps content within the container*/
+    align-items: center;
+                                           /*align content to control space between rows or columns used only with wrap*/
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
+    
+}
+
+/* div:nth-last-of-type(5){
+    align-self: flex-start;                 /*position individual contents*/
+    /*flex-basis: 300px ;                         /*sets the original size*/
+    /* flex-grow: 2;                           growth rate of content size */
+
+#container div:nth-of-type(1){
+    flex: 2 450px;
+}
+
+div:nth-of-type(2){
+    justify-content: space-evenly;
+}
+
+div:nth-of-type(3){
+    border: 2px solid red;
+}
